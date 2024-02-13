@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,#FFF3B0,#FFADF4); /* Replace with your preferred color code */
+            color: #ffffff; /* Optionally, you can set the text color */
+            font-family: Arial, sans-serif; /* Set your preferred font */
+           
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7070; /* Change the background color as needed */
+    padding: 10px 0;
+}
+
+#menuItems {
+    list-style: none;
+    display: flex;
+}
+
+#menuItems li {
+    margin: 0 15px;
+}
+
+#menuItems a {
+    text-decoration: none;
+    color: #150909; /* Change the text color as needed */
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.col-2{
+    flex: 1;
+    
+}
+
+.col-2 .p{
+    padding: 0 50px; 
+    color: #181818;
+}
+
+.col-2 .h1{
+    padding: 50px;
+    color: #181818;
+    font-weight: 100;
+}
+
+.col-2 img{
+
+    width: 99.3%;
+    object-fit: cover;
+}
+
+
+
+.row1 {
+    display: flex;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-bottom: 50px;
+}
+
+.row69 {
+    flex: 1;
+    display: flex;
+    height: 100%; /* Set height to 100% of viewport height */
+   
+    
+}
+
+.one {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.img1,
+.img2 {
+    flex: 1;
+    overflow: hidden; /* To ensure images don't overflow their container */
+    object-fit: cover;
+    
+}
+
+
+.two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+.img1 img,
+.img2 img{
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+}
+
+.two {
+    flex: 1;
+}
+
+.three {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: left;
+    padding: 20px; /* Adjust the padding as needed */
+    background-color: #FF7070;
+}
+
+p, h1, h2, h5{
+    margin-bottom: 10px; /* Add space between the headings */
+    color: #000000;
+}
+
+.click-container {
+    text-align: left;
+    
+    display: flex;
+   
+}
+
+img {
+    margin-left: 5px; /* Add space between the text and the image */
+}
+
+
+
+#explore{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border:2px solid #fff;
+    padding: 7px 50px ;
+    background-color: #FF7070;
+    margin: 0 50px; 
+  }
+
+
+
+
+  @media(max-width:991px){
+    *{
+        overflow-x: hidden;
+    }
+    nav{
+        flex: 1;
+        text-align: right;
+    }
+    
+    nav ul{
+        display: inline-block;
+        list-style-type: none;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        margin-right: 5px;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FF7070; /* Change the background color as needed */
+        padding: 5px 0;
+    }
+    
+    #menuItems {
+        list-style: none;
+        display: flex;
+    }
+    
+    #menuItems li {
+        margin: 0 5px;
+    }
+    
+    #menuItems a {
+        text-decoration: none;
+        color: #150909; /* Change the text color as needed */
+        font-weight: 300;
+        font-size: 30px;
+        padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+  }
+
+
+
+  @media screen and (max-width: 767px) {
+
+    
+    .row1,.two{
+        display: flex;
+        flex-direction: column-reverse; /* Align items in a column */
+        margin: 0;
+        padding: 0;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    
+  }
